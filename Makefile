@@ -69,3 +69,13 @@ traffic-test:
 	  curl -s -H "X-Client-ID: test-$$i" localhost:8000/api/light > /dev/null; \
 	done
 	@echo "Done."
+
+# redis
+redis-cli:
+	kubectl exec -it -n balancit deployment/redis -- redis-cli
+
+redis-keys:
+	kubectl exec -it -n balancit deployment/redis -- redis-cli KEYS '*'
+
+redis-flush:
+	kubectl exec -it -n balancit deployment/redis -- redis-cli FLUSHALL
