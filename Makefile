@@ -79,3 +79,22 @@ redis-keys:
 
 redis-flush:
 	kubectl exec -it -n balancit deployment/redis -- redis-cli FLUSHALL
+
+# ml engine
+build-ml:
+	docker build -t ml-service:latest ml/
+
+load-ml:
+	kind load docker-image ml-service:latest --name balancit
+
+deploy-ml:
+	kubectl apply -f k8s/base/ml-service.yaml
+	kubectl rollout status deployment/ml-service -n balancit
+
+logs-ml:
+	kubectl logs -f -n balancit deployment/ml-service
+
+restart-ml:
+	kubectl rollout restart deployment/ml-service -n balancit
+
+ml-cycle: build-ml load-ml restart-ml
