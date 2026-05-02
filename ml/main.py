@@ -3,7 +3,6 @@ from feature_extractor import FeatureExtractor
 from config import INTERVAL_SECONDS
 
 print(f"ML service starting. Interval: {INTERVAL_SECONDS}s")
-print(f"Day 9 mode: feature extraction only (no ML yet)")
 print("-" * 60)
 
 extractor = FeatureExtractor()
