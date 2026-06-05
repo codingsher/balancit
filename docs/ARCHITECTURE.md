@@ -17,8 +17,6 @@ clients, then driving both admission control and autoscaling from that estimate.
 ## Architecture Diagram in Excalidraw
 ```https://excalidraw.com/#json=TbzpwVHrYdJ6ukY3hGVhH,B5p6tvUY1JCi2NMmXNvSaQ```
 
-See the SVG: [Architecture-FlowChart](./docs/images/architecture-flowchart.svg)
-
 ## Problem
 
 Cloud-native autoscalers conflate observed traffic with required capacity. When a
