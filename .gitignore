@@ -93,8 +93,6 @@ secrets/
 
 # gitignored from the directory
 DEVLOG.md
-README.md
-REPRODUCING.md
 architecture.md
 docs/
 experiments/
@@ -107,5 +105,4 @@ results_20mins(old)_and_rate_limit_fixed/
 results_scratch/
 
 ml/INTEGRATION_TEST.md
-ml/README.md
 ml/tests/
