@@ -93,8 +93,7 @@ secrets/
 
 # gitignored from the directory
 DEVLOG.md
-architecture.md
-docs/
+docs/LIMITATIONS.md
 experiments/
 integration-test.md
 plots/
