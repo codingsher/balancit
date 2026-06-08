@@ -52,15 +52,15 @@ Balancit is the only mode that simultaneously achieves the highest attacker thro
 
 ### Deploy
 
-See [REPRODUCING.md](REPRODUCING.md) .
+See [REPRODUCING.md](./docs/REPRODUCING.md) .
 
 ### Run Experiments
 
-See [REPRODUCING.md](REPRODUCING.md) .
+See [REPRODUCING.md](./docs/REPRODUCING.md) .
 
 ### Generate Plots
 
-See [REPRODUCING.md](REPRODUCING.md) for the full experiment matrix.
+See [REPRODUCING.md](./docs/REPRODUCING.md) for the full experiment matrix.
 
 ## Key Findings
 
@@ -72,7 +72,7 @@ See [REPRODUCING.md](REPRODUCING.md) for the full experiment matrix.
 
 ## Reproducing
 
-See [REPRODUCING.md](REPRODUCING.md).
+See [REPRODUCING.md](./docs/REPRODUCING.md).
 
 ## Technology
 
