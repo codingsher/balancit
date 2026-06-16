@@ -94,7 +94,6 @@ secrets/
 # gitignored from the directory
 DEVLOG.md
 docs/LIMITATIONS.md
-experiments/
 integration-test.md
 plots/
 plots_20min/
